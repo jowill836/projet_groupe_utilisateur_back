@@ -10,7 +10,6 @@ pipeline {
     stage('Build') {
       steps {
         sh 'pipenv install'
-        sh 'pipenv shell'
       }
     }
 
